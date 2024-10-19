@@ -1,0 +1,346 @@
+body{
+    overflow-x: hidden;
+}
+
+
+/* header css */
+ header{
+    position: fixed;
+ }
+ header li{
+    margin-left: 50px;
+    color: white;
+
+ }
+ 
+ .h-3{
+    padding-top: 10px;
+   padding-left: 700px;
+   display: flex;
+   justify-content: end;
+ }
+ 
+
+
+/* home css */
+ .home{
+    background-image: url(background.webp);
+    background-size: cover;
+    height: 650px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding: 120px;
+ }
+
+.home-1 h1{
+    text-align: center;
+}
+.home-1 p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.home-1 .btn-1{
+    padding: 8px;
+    width: 180px;
+    background-color: #0540F2;
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+   
+   
+}
+.home-2{
+    display: flex;
+    justify-content: center;
+}
+.home-1 .btn-1:hover{
+    background-color: rgb(61, 50, 207);
+}
+.home-1 .btn-2{
+    padding: 8px;
+    width: 180px;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 40px;
+   border: 2px solid black;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.home-1 .btn-2:hover{
+    background-color:#0540F2;
+    color: white;
+    border: transparent;
+}
+
+
+/* commitment css */
+.commitment-n h1{
+    padding-top: 50px;
+    color: #0540F2;
+    padding-bottom: 20px;
+}
+.commitment-1 p{
+    padding-top: 70px;
+}
+
+.commitment-3 p{
+    padding: 20px;
+    
+}
+.commitment-3 button{
+    padding: 8px;
+    width: 180px;
+    background-color: #0540F2;
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+.commitment-3 button:hover{
+    background-color: rgb(61, 50, 207);
+}
+.commitment-4 ul{
+    margin-left: 50px;
+   
+}
+.commitment-4 li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: rgb(194, 218, 239);
+    padding: 20px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.commitment-4 h3{
+    color: #0540F2;
+}
+
+
+/* academic css */
+.academic-1 h1{
+    color: #0540F2;
+    text-align: center;
+    padding-top: 50px;
+}
+.academic-1 p{
+    text-align: center;
+    padding-top: 20px;
+}
+.a1{
+    margin: 30px;
+}
+.a1 img{
+    padding:20px ;
+}
+.a1 p{
+   
+    padding-bottom:20px ;
+}
+.a1 h4{
+    padding-top:20px ;
+
+}
+.academic-3{
+    background-color: #0540F2;
+    color: white;
+ 
+}
+.academic button{
+    padding: 8px;
+    width: 200px;
+    background-color: #0540F2;
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.academic  button:hover{
+    background-color: rgb(61, 50, 207);
+   
+}
+
+
+/* admission css  */
+.admission{
+    padding: 40px;
+}
+.admission button{
+    padding: 8px;
+    width: 200px;
+    background-color: #0540F2;
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.admission button:hover{
+    background-color: rgb(61, 50, 207);
+   
+}
+.admission-n h2{
+    color: #0540F2;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.admission-n p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.admission img{
+    padding-bottom: 40px;
+}
+.admission-1 {
+    display: flex;
+    padding-top: 20px;
+}
+.admission-1 a{
+   font-size: 40px;
+}
+.admission-1 p{
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.admission-2 img{
+    border: transparent;
+}
+
+
+/* student design  */
+.student-n{
+    background-color: #0540F2;
+    color: white;
+    padding: 40px;
+}
+.student-n h1{
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+.student-n h6{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.student-n p{
+    text-align: center;
+}
+.student-2{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.student-3 h4{
+   padding-top: 20px;
+}
+
+
+/* checkout css */
+.checkout-n{
+    color: #0540F2;
+    font-size: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.checkout-1 p{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.checkout-1 button{
+    padding: 8px;
+    background-color: #0540F2;
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.checkout-1 button:hover{
+    background-color: rgb(61, 50, 207);
+   
+}
+.checkout1{
+    display: flex;
+    justify-content: space-around;
+}
+.checkout-2{
+    background-color: rgb(213, 219, 225);
+    margin: 20px;
+    padding: 20px;  
+    border-radius: 25px;
+}
+.checkout-2 button{
+    padding: 8px;
+    background-color: #0540F2;
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+    width: 100px;
+   margin: 20px;
+}
+.checkout-2 button:hover{
+    background-color: rgb(61, 50, 207);
+   
+}
+
+.checkout-2 h4{
+    color: #0540F2;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.checkout-p {
+    font-size: 15px;
+    padding-left: 20px;
+}
+.checkout-2 p{
+    padding-left: 20px;
+}
+
+
+
+/* join now css  */
+
+.join-now{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.join-now h1{
+    color: #0540F2;
+    padding-bottom: 20px;
+}
+.join-now p{
+    padding-bottom: 15px;
+}
+.join-now button{
+    padding: 8px;
+    background-color: #0540F2;
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+    width: 200px;
+}
+.join-now button:hover{
+    background-color: rgb(61, 50, 207);
+   
+}
+
+/* footer css */
+
+footer{
+    background-color: #0540F2;
+    color: white;
+    padding: 40px;
+}
+.f-n{
+    padding-left: 50px;
+}
+
+.f-n p{
+    font-size: 20px;
+}
